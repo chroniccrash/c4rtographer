@@ -1,0 +1,511 @@
+# Nmap 7.40 scan initiated Tue May 30 22:08:10 2017 as: nmap -sT --top-ports 150 -oA tcpConnect_10.11.1.0-254 10.11.1.0/24
+Nmap scan report for 10.11.1.5
+Host is up (0.033s latency).
+Not shown: 145 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:28:DB (VMware)
+
+Nmap scan report for 10.11.1.7
+Host is up (0.034s latency).
+Not shown: 149 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:07:45 (VMware)
+
+Nmap scan report for 10.11.1.8
+Host is up (0.047s latency).
+Not shown: 140 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+25/tcp   closed smtp
+80/tcp   open   http
+111/tcp  open   rpcbind
+139/tcp  open   netbios-ssn
+443/tcp  open   https
+445/tcp  open   microsoft-ds
+631/tcp  open   ipp
+3306/tcp open   mysql
+MAC Address: 00:50:56:89:7B:F1 (VMware)
+
+Nmap scan report for 10.11.1.10
+Host is up (0.034s latency).
+Not shown: 149 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:89:15:C0 (VMware)
+
+Nmap scan report for 10.11.1.13
+Host is up (0.043s latency).
+Not shown: 147 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:10:6F (VMware)
+
+Nmap scan report for 10.11.1.14
+Host is up (0.058s latency).
+Not shown: 147 filtered ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:23:3A (VMware)
+
+Nmap scan report for 10.11.1.22
+Host is up (0.032s latency).
+Not shown: 139 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+199/tcp   open  smux
+443/tcp   open  https
+995/tcp   open  pop3s
+32768/tcp open  filenet-tms
+MAC Address: 00:50:56:89:10:60 (VMware)
+
+Nmap scan report for 10.11.1.24
+Host is up (0.051s latency).
+Not shown: 142 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+110/tcp open  pop3
+139/tcp open  netbios-ssn
+143/tcp open  imap
+445/tcp open  microsoft-ds
+993/tcp open  imaps
+995/tcp open  pop3s
+MAC Address: 00:50:56:89:2C:E4 (VMware)
+
+Nmap scan report for 10.11.1.31
+Host is up (0.031s latency).
+Not shown: 143 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1433/tcp open  ms-sql-s
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:1E:24 (VMware)
+
+Nmap scan report for 10.11.1.35
+Host is up (0.040s latency).
+Not shown: 147 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+443/tcp open   https
+631/tcp closed ipp
+MAC Address: 00:50:56:89:22:01 (VMware)
+
+Nmap scan report for 10.11.1.39
+Host is up (0.032s latency).
+Not shown: 147 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+MAC Address: 00:50:56:89:34:51 (VMware)
+
+Nmap scan report for 10.11.1.44
+Host is up (0.031s latency).
+Not shown: 148 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+8000/tcp open  http-alt
+MAC Address: 00:50:56:89:06:CC (VMware)
+
+Nmap scan report for 10.11.1.49
+Host is up (0.033s latency).
+Not shown: 146 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+49155/tcp open  unknown
+MAC Address: 00:50:56:89:72:F8 (VMware)
+
+Nmap scan report for 10.11.1.50
+Host is up (0.031s latency).
+Not shown: 146 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+49155/tcp open  unknown
+MAC Address: 00:50:56:89:35:44 (VMware)
+
+Nmap scan report for 10.11.1.71
+Host is up (0.033s latency).
+Not shown: 148 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:50:56:89:43:8E (VMware)
+
+Nmap scan report for 10.11.1.72
+Host is up (0.034s latency).
+Not shown: 143 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+111/tcp  open  rpcbind
+119/tcp  open  nntp
+2049/tcp open  nfs
+MAC Address: 00:50:56:89:07:B8 (VMware)
+
+Nmap scan report for 10.11.1.73
+Host is up (0.033s latency).
+Not shown: 133 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+2869/tcp  open  icslap
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+8080/tcp  open  http-proxy
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 00:50:56:89:6F:F6 (VMware)
+
+Nmap scan report for 10.11.1.115
+Host is up (0.032s latency).
+Not shown: 139 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+199/tcp   open  smux
+443/tcp   open  https
+3306/tcp  open  mysql
+32768/tcp open  filenet-tms
+MAC Address: 00:50:56:89:1E:11 (VMware)
+
+Nmap scan report for 10.11.1.116
+Host is up (0.033s latency).
+Not shown: 144 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+3306/tcp open  mysql
+MAC Address: 00:50:56:89:01:33 (VMware)
+
+Nmap scan report for 10.11.1.125
+Host is up (0.032s latency).
+Not shown: 149 filtered ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+MAC Address: 00:50:56:89:57:9D (VMware)
+
+Nmap scan report for 10.11.1.128
+Host is up (0.032s latency).
+Not shown: 138 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1027/tcp open  IIS
+1029/tcp open  ms-lsa
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+MAC Address: 00:50:56:89:3F:ED (VMware)
+
+Nmap scan report for 10.11.1.133
+Host is up (0.040s latency).
+Not shown: 148 closed ports
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+80/tcp open     http
+MAC Address: 00:50:56:89:34:8C (VMware)
+
+Nmap scan report for 10.11.1.136
+Host is up (0.031s latency).
+Not shown: 146 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+113/tcp open  ident
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:89:19:1D (VMware)
+
+Nmap scan report for 10.11.1.141
+Host is up (0.031s latency).
+Not shown: 147 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+10000/tcp open  snet-sensor-mgmt
+MAC Address: 00:50:56:89:5C:42 (VMware)
+
+Nmap scan report for 10.11.1.145
+Host is up (0.034s latency).
+Not shown: 145 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:89:6E:4B (VMware)
+
+Nmap scan report for 10.11.1.146
+Host is up (0.030s latency).
+Not shown: 148 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+MAC Address: 00:50:56:89:31:60 (VMware)
+
+Nmap scan report for 10.11.1.202
+Host is up (0.034s latency).
+Not shown: 140 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1029/tcp open  ms-lsa
+1038/tcp open  mtqp
+3389/tcp open  ms-wbt-server
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:89:01:54 (VMware)
+
+Nmap scan report for 10.11.1.209
+Host is up (0.033s latency).
+Not shown: 145 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:89:47:8F (VMware)
+
+Nmap scan report for 10.11.1.217
+Host is up (0.031s latency).
+Not shown: 140 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+111/tcp  open  rpcbind
+143/tcp  open  imap
+443/tcp  open  https
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3306/tcp open  mysql
+MAC Address: 00:50:56:89:79:13 (VMware)
+
+Nmap scan report for 10.11.1.218
+Host is up (0.035s latency).
+Not shown: 147 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:67:AB (VMware)
+
+Nmap scan report for 10.11.1.219
+Host is up (0.033s latency).
+Not shown: 149 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:89:7A:36 (VMware)
+
+Nmap scan report for 10.11.1.220
+Host is up (0.032s latency).
+Not shown: 136 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+636/tcp   open  ldapssl
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 00:50:56:89:05:74 (VMware)
+
+Nmap scan report for 10.11.1.221
+Host is up (0.031s latency).
+Not shown: 146 filtered ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+135/tcp  open  msrpc
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: 00:50:56:89:58:65 (VMware)
+
+Nmap scan report for 10.11.1.223
+Host is up (0.032s latency).
+Not shown: 137 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 00:50:56:89:3E:DA (VMware)
+
+Nmap scan report for 10.11.1.226
+Host is up (0.032s latency).
+Not shown: 149 filtered ports
+PORT     STATE  SERVICE
+3389/tcp closed ms-wbt-server
+MAC Address: 00:50:56:89:7B:69 (VMware)
+
+Nmap scan report for 10.11.1.227
+Host is up (0.034s latency).
+Not shown: 138 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1028/tcp open  unknown
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+MAC Address: 00:50:56:89:71:CB (VMware)
+
+Nmap scan report for 10.11.1.229
+Host is up (0.032s latency).
+Not shown: 138 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+23/tcp   closed telnet
+25/tcp   open   smtp
+80/tcp   open   http
+110/tcp  open   pop3
+135/tcp  open   msrpc
+139/tcp  open   netbios-ssn
+143/tcp  open   imap
+443/tcp  closed https
+1025/tcp open   NFS-or-IIS
+2869/tcp closed icslap
+3389/tcp open   ms-wbt-server
+MAC Address: 00:50:56:89:75:CF (VMware)
+
+Nmap scan report for 10.11.1.230
+Host is up (0.036s latency).
+Not shown: 141 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: 00:50:56:89:3A:1C (VMware)
+
+Nmap scan report for 10.11.1.234
+Host is up (0.032s latency).
+Not shown: 148 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:50:56:89:3F:2D (VMware)
+
+Nmap scan report for 10.11.1.237
+Host is up (0.033s latency).
+Not shown: 146 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+MAC Address: 00:50:56:89:2C:47 (VMware)
+
+Nmap scan report for 10.11.1.238
+Host is up (0.031s latency).
+Not shown: 146 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+MAC Address: 00:50:56:89:10:92 (VMware)
+
+Nmap scan report for 10.11.1.247
+Host is up (0.032s latency).
+Not shown: 149 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:89:19:0D (VMware)
+
+Nmap scan report for 10.11.1.251
+Host is up (0.041s latency).
+Not shown: 149 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:89:61:87 (VMware)
+
+Nmap scan report for 10.11.1.252
+Host is up (0.034s latency).
+Not shown: 148 filtered ports
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+8888/tcp open  sun-answerbook
+MAC Address: 00:50:56:89:5A:02 (VMware)
+
+# Nmap done at Tue May 30 22:08:35 2017 -- 256 IP addresses (44 hosts up) scanned in 24.74 seconds
