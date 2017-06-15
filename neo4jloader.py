@@ -23,8 +23,10 @@ class Neo4jLoader(object):
         self.gdb.query(queryString)
 
     def load_from_model(self, model):
+        #print(model.vertices.keys())
         for vid in model.vertices:
             #print(model.vertices[vid])
+            #print(vid, model.vertices[vid])
             self.add_vertex(model.vertices[vid])
         for eid in model.edges:
             self.add_edge(model.edges[eid])

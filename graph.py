@@ -10,7 +10,7 @@ class GraphModel(object):
             self.vertices[vertex.id] = vertex
         else:
             self.vertices[vertex.id].properties.update(vertex.properties)
-        return self
+        return self.vertices[vertex.id]
 
     def add_edge(self, edge):
         if(edge.id not in self.edges):

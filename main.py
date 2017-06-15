@@ -17,12 +17,12 @@ import graph
 
 class NmapDataModel(object):
 	def __init__(self):
-		self.gm = graph.GraphModel()
+		self.graphmodel = graph.GraphModel()
 
 	def add_ipv4(self, ipAddress, properties={}):
 		properties['ipv4'] = ipAddress
 		v = graph.Vertex('IP', properties=properties, unique_by=['ipv4'])
-		return self.gm.add_vertex(v)
+		return self.graphmodel.add_vertex(v)
 
 class NmapInterface(object):
 	def build_model(self, filename=None):
@@ -45,8 +45,9 @@ class NmapInterface(object):
 			hostnames = host.findall('hostnames')
 			for hostname in hostnames:
 				pass#not sure how to handle this
-			dm.add_ipv4(result['address_ipv4'])
-		return dm
+
+			print(dm.add_ipv4(result['address_ipv4']))
+		return dm.graphmodel
 
 filename = 'C:\\Users\\bostw\\Desktop\\projects\\oscp_course\\scans\\10.11.1.0-254\\tcpConnect_10.11.1.0-254.xml'
 
@@ -54,7 +55,7 @@ filename = 'C:\\Users\\bostw\\Desktop\\projects\\oscp_course\\scans\\10.11.1.0-2
 nmap = NmapInterface()
 dm = nmap.build_model(filename=filename)
 loader = neo4jloader.Neo4jLoader("http://10.0.1.2:7474/db/data/",username="neo4j")
-loader.load_from_model(dm.gm)
+loader.load_from_model(dm)
 
 
 '''
