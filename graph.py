@@ -6,7 +6,7 @@ class GraphModel(object):
         self.edges = dict()
 
     def add_vertex(self, vertex):
-        if(vertex.id not in self.vertices):
+        if(not vertex.id in self.vertices):
             self.vertices[vertex.id] = vertex
         else:
             self.vertices[vertex.id].properties.update(vertex.properties)
@@ -25,16 +25,17 @@ class GraphModel(object):
 class Vertex(object):
     def __init__(self, label, properties={}, unique_by=[]):
         self.label = label
-        self.properties = properties
-        self.id = label
+        objID = label
         if(unique_by):
             for item in unique_by:
-                self.id += ':' + str(properties.get(item,'None'))
+                objID += ':' + str(properties.get(item,'None'))
         else:
             for item in properties.keys():
-                self.id += ':' + str(properties.get(item,'None'))
-        self.id = hashlib.md5(self.id.encode('utf-8')).hexdigest()[0:10]
-        self.properties['hashcode'] = self.id
+                objID += ':' + str(properties.get(item,'None'))
+        objID = hashlib.md5(objID.encode('utf-8')).hexdigest()[0:10]
+        properties['hashcode'] = objID
+        self.id = objID
+        self.properties = properties
 
     def update(self, vertex):
         self.properties.update(vertex.properties)
