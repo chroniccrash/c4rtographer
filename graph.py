@@ -45,7 +45,7 @@ class Vertex(object):
         return "%s:%s:%s"%(self.label, self.id, str(self.properties))
 
 class Edge(object):
-    def __init__(self, srcVertex, relationship, dstVertex, properties={}):
+    def __init__(self, srcVertex, relationship, dstVertex, properties={}, unique_by=[]):
         self.srcVertex = srcVertex
         self.dstVertex = dstVertex
         self.relationship = relationship
