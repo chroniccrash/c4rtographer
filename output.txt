@@ -1,0 +1,427 @@
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x24de
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 0.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x247a
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 1.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x23b2
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 3.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x2222
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 7.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x1f02
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 15.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0x18c2
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 31.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
+###[ Ethernet ]### 
+  dst       = 33:33:00:01:00:02
+  src       = 08:00:27:a1:03:20
+  type      = 0x86dd
+###[ IPv6 ]### 
+     version   = 6L
+     tc        = 0L
+     fl        = 0L
+     plen      = 95
+     nh        = UDP
+     hlim      = 1
+     src       = fe80::6cee:b5c1:4a75:f04b
+     dst       = ff02::1:2
+###[ UDP ]### 
+        sport     = dhcpv6_client
+        dport     = dhcpv6_server
+        len       = 95
+        chksum    = 0xc42
+###[ DHCPv6 Solicit Message ]### 
+           msgtype   = SOLICIT
+           trid      = 0x8f7ac2
+###[ DHCP6 Elapsed Time Option ]### 
+              optcode   = ELAPSED_TIME
+              optlen    = 2
+              elapsedtime= 63.00 sec
+###[ DHCP6 Client Identifier Option ]### 
+                 optcode   = CLIENTID
+                 optlen    = 14
+                 \duid      \
+                  |###[ DUID - Link-layer address plus time ]### 
+                  |  type      = Link-layer address plus time
+                  |  hwtype    = Ethernet (10Mb)
+                  |  timeval   = Sun, 06 Aug 2017 23:49:23 +0000 (1502063363)
+                  |  lladdr    = 08:00:27:a1:03:20
+###[ DHCP6 Identity Association for Non-temporary Addresses Option ]### 
+                    optcode   = IA_NA
+                    optlen    = 12
+                    iaid      = 0xe080027
+                    T1        = 0
+                    T2        = 0
+                    \ianaopts  \
+###[ DHCP6 Option - Client FQDN ]### 
+                       optcode   = OPTION_CLIENT_FQDN
+                       optlen    = 9
+                       res       = 0L
+                       flags     = 
+                       fqdn      = 'win7-PC'
+###[ DHCP6 Vendor Class Option ]### 
+                          optcode   = VENDOR_CLASS
+                          optlen    = 14
+                          enterprisenum= Microsoft
+                          \vcdata    \
+                           |###[ vendor class data ]### 
+                           |  len       = 8
+                           |  data      = 'MSFT 5.0'
+###[ DHCP6 Option Request Option ]### 
+                             optcode   = ORO
+                             optlen    = 8
+                             reqopts   = [Domain Search List option, DNS Recursive Name Server Option, VENDOR_OPTS, OPTION_CLIENT_FQDN]
+
+None
